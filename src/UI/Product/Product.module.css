@@ -1,0 +1,150 @@
+.container {
+    width: 9em;
+    height: 14.75em;
+    border-radius: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.background-roswell-chairs {
+    background-color: #DEE6E1;
+}
+
+.background-minimal-chairs {
+    background-color: #E5E5E5;
+}
+
+.background-lounge-chairs {
+    background-color: #D9DCF7;
+}
+
+.background-velvet-chairs {
+    background-color: #EBE6E4;
+}
+
+.image {
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.roswell-chairs {
+    background-image: url("../../images/Roswell.png");
+    width: 99px;
+    height: 108px;
+    top: 38px;
+    left: 24px;
+}
+
+.minimal-chairs {
+    background-image: url("../../images/Minimal.png");
+    width: 84px;
+    height: 121px;
+    top: 38px;
+    left: 21px;
+}
+
+.lounge-chairs {
+    background-image: url("../../images/Lounge.png");
+    width: 99px;
+    height: 95px;
+    top: 45px;
+    left: 21px;
+}
+
+.velvet-chairs {
+    background-image: url("../../images/Velvet.png");
+    width: 86px;
+    height: 121px;
+    top: 32px;
+    left: 29px;
+}
+
+.background-accent-sofas {
+    background-color: #D9DCF7;
+}
+
+.background-minimal-sofas {
+    background-color: #DFE1F0;
+}
+
+.background-artistic-sofas {
+    background-color: #C4D9CC;
+}
+
+.background-morph-sofas {
+    background-color: #FCE9D5;
+}
+
+.accent-sofas, .minimal-sofas, .artistic-sofas, .morph-sofas {
+    width: 144px;
+    height: 236px;
+    top: 0px;
+    left: 0px;
+}
+
+.accent-sofas {
+    background-image: url("../../images/Accent.png");
+}
+
+.minimal-sofas {
+    background-image: url("../../images/Minimal1.png");
+}
+
+.artistic-sofas {
+    background-image: url("../../images/Artistic.png");
+}
+
+.morph-sofas {
+    background-image: url("../../images/Morph.png");
+}
+
+.title {
+    padding:0;
+    margin:0;
+    font-size: 0.9375rem;
+    position: relative;
+    left: 1.125em;
+    top: 11.0625em;
+}
+
+.price {
+    font-family: 'Corporate S Demi';
+    font-size:1.125rem;
+    position: relative;
+    left: 1em;
+    top: 9em;
+    text-align: left;
+}
+
+.roswell-chairs-price {
+    color: #2C993B;
+}
+
+.minial-chairs-price {
+    color: #3C3D3D;
+}
+
+.lounge-chairs-price {
+    color: #01205C;
+}
+
+.velvet-chairs-price {
+    color: #C35C5C;
+}
+
+.accent-sofas-price {
+    color: #01205C;
+}
+
+.minial-sofas-price {
+    color: #294B86;
+}
+
+.artistic-sofas-price {
+    color: #217C44;
+}
+
+.morph-sofas-price {
+    color: #AF7537;
+}

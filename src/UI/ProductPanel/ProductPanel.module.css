@@ -1,0 +1,28 @@
+.container {
+    position: absolute;
+    margin-top: 1.9375em;
+    display: grid;
+    gap: 1.6875em 1.6875em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        '. . '
+        '. . ';
+    transition: opacity .3s ease-out;
+    transition-property: transform, opacity;
+}
+
+.selectedPanel {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.unSelectedPanel-left {
+    opacity: 0;
+    transform: translateX(-100px);
+}
+
+.unSelectedPanel-right {
+    opacity: 0;
+    transform: translateX(100px);
+}

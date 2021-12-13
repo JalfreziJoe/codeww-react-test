@@ -1,0 +1,46 @@
+{
+    "chairs": [
+      {
+        "id": 1,
+        "name": "Roswell",
+        "price": 50.00
+      },
+      {
+        "id": 2,
+        "name": "Minimal",
+        "price": 42.00
+      },
+      {
+        "id": 3,
+        "name": "Lounge",
+        "price": 35.00
+      },
+      {
+        "id": 4,
+        "name": "Velvet",
+        "price": 53.00
+      }
+    ],
+    "sofas": [
+        {
+          "id": 1,
+          "name": "Accent",
+          "price": 134.00
+        },
+        {
+          "id": 2,
+          "name": "Minimal",
+          "price": 287.00
+        },
+        {
+          "id": 3,
+          "name": "Artistic",
+          "price": 346.00
+        },
+        {
+          "id": 4,
+          "name": "Morph",
+          "price": 124.00
+        }
+      ]
+  }
